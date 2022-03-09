@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="answer.css"> -->
+  <title>My Answers</title>
+</head>
+<body>
+  <h1 class="p-3 bg-dark text-white">Answers To Tope's Questions</h1>
+  <div>
+    <p id="doc">Do you want to know the nitty-gritty of Javascript? <span><button id="ready">click me</button></span></p>
+  </div>
+  <div class="container" id="content"> 
+    <div class="card">
+      <div class="bg-secondary text-dark mb-3 px-2" id="HTMLcontent">
+        <h3>Traditional DOM handlers & Jquery Statements For HTML Contents</h3>
+        <p>Using the mouseover and mouseout event handlers</p>
+      </div>
+      <div>
+        <button onmouseover="first()" onmouseout="second()" class="btn btn-primary" id="greetings">Hover here</button>
+        <div id="info1"></div>
+      </div>
+    </div>
+
+    <div class="card mt-5">
+      <div class="bg-secondary text-dark mb-3 px-2" id="textContent">
+        <h3>Event Listeners & Jquery Statements For Text Contents</h3>
+        <p>Using the mouseover and click event handlers</p>
+      </div>
+      <div>
+        <button class="btn btn-warning" id="commend1">Hover here</button>
+        <button class="btn btn-danger" id="commend2">click here</button>
+      </div>
+      <div id="info2"></div>
+    </div>
+
+    <div class="card mt-5 mb-3">
+      <div class="bg-secondary text-dark mb-3 px-2" id="">
+        <h3>Jquery Staments For Attribute Of Elements</h3>
+      </div>
+      <div>
+        <button class="btn btn-success" id="imageAlt">Hover here</button>
+        <div><img id="info3" src="" alt=""></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script src="assets/jquery/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="answer.js"></script>
+</html>
